@@ -348,11 +348,8 @@ font-weight: 500;
     flex-wrap: wrap;
 }
 .portfolio-list-item {
-    flex-basis: 368px;
+    /* flex-basis: 368px; */
     background: var(--basic-white);
-    border-left: 1px solid #EEEEEE;
-    border-right: 1px solid #EEEEEE;
-    border-bottom: 1px solid #EEEEEE;
     margin-right: 30px;
     margin-bottom: 30px;
 }
@@ -364,6 +361,9 @@ font-weight: 500;
 }
 .portfolio-item-description {
     padding: 20px 24px;
+    border-left: 1px solid #EEEEEE;
+    border-right: 1px solid #EEEEEE;
+    border-bottom: 1px solid #EEEEEE;
 }
 .portfolio-list-item-title {
     margin-bottom: 4px;
